@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import DogPics from "./DogPics";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +31,7 @@ function App() {
           console.log(e.target.value)
         }}
       />
+      <DogPics />
     </div>
   )
 }
